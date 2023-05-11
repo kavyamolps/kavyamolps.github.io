@@ -1,0 +1,426 @@
+
+.kavya{
+    margin-top: 50px;
+    margin-left:25px ;
+    width: 150px;
+    height: 200px;
+    border-radius: 60%;    
+    border:5px solid rgba(251, 251, 251, 0.986);
+}
+.headsection{
+    margin-top: 15px;
+    margin-left:20px;
+    font-size: x-large;
+    color: white;
+}
+.home1{
+    margin-top: 300px;
+}
+.about1{
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 180px;
+    height:28px;
+    font-size: 22px;
+    text-align: center;
+}
+.about1:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.fas fa-user{
+    font-size:20px;
+    color: cornsilk;
+}
+.hyper{
+    text-decoration: none;
+    color: white;
+    
+}
+.a1{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 150px;
+    height:25px;
+    text-align: center;
+    position: absolute;
+    margin-left:-15px;
+}
+.a1:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.a2{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 150px;
+    height:25px;
+    text-align: center;
+    position: absolute;
+    margin-left:-15px;
+}
+.a2:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.a3{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 150px;
+    height:25px;
+    text-align: center;
+    position: absolute;
+    margin-left:-15px;
+}
+.a3:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.a4{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 150px;
+    height:25px;
+    text-align: center;
+    position: absolute;
+    margin-left:-15px;
+}
+.a4:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.a5{
+    text-decoration: none;
+    color:white;
+    font-size: 21px;
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 150px;
+    height:25px;
+    text-align: center;
+    position: absolute;
+    margin-left:-15px;
+}
+.a5:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+span{
+    color: orangered;
+}
+.kavyaname{
+    color: white;
+    font-size: 50px;
+}
+.hi{
+    color: white;
+    font-size: 25px;
+}
+.intro{
+    color: white;
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.front{
+    top:0px;
+    left:-250px;
+    position: fixed;
+    background-color: #18191a;
+    height: 100%;
+    width:250px;
+    transition: all .5s ease;
+}
+.list{
+    background-color:#18191a ;
+}
+.about{
+    margin-top: 500px;
+}
+.me{
+    color: white;
+}
+.me1{
+    color:orangered;
+    font-size: 40px;
+    text-align: center;
+}
+.about3{
+    width: 86%;
+    height: 2px;
+    background-color: #333333;
+    text-align: center;
+    margin-left: 7%;
+}
+.about5{
+    color: white;
+    font-size: 22px;
+    margin-left: 7%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.downloadbutton-creation{
+    border-radius:90px 90px 90px 90px;
+    background-color: #333333;
+    width: 200px;
+    height:28px;
+    place-items: center;
+    text-align: center;
+    margin-left: 7%;
+}
+.downloadbutton-creation:hover{
+    background: orangered;
+    cursor: pointer;
+    transition-duration: 0.9s;
+}
+.download-btn{
+    text-decoration:none;
+    color: white;
+    font-size: 22px;
+}
+.education1{
+    margin-top: 1000px;
+}
+.my{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.my1{
+    color:orangered;
+    font-size: 40px;
+}
+.education3{
+    width: 86%;
+    height: 2px;
+    background-color: #333333;
+    text-align: center;
+    margin-left: 7%;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: fixed;
+    cursor: pointer;
+    background: #333333;
+    border-radius: 3px;
+}
+label #btn{
+    left: 40px;
+    top:25px;
+    font-size: 35px;
+    color:white;
+    padding:6px 12px;
+    transition: all .5s;
+}
+label #cancel{
+    z-index: 1111;
+    left:-195px;
+    top:17px;
+    font-size: 30px;
+    color: white;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .front{
+    left:0;
+}
+#check:checked ~ label #btn{
+    left:250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left:195px;
+}
+.home1{
+    margin-left: 20px;
+}
+#education4{
+    margin-left: 7%;
+}
+.edu1{
+    width: 80px;
+    height: 80px;
+    background-color: #ff3300;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.edu2{
+    margin-top: 100px;
+    width: 80px;
+    height: 80px;
+    background-color:#ff3300;
+    border-radius: 50%;
+    
+}
+.edu3{
+    margin-top: 100px;
+    width: 80px;
+    height: 80px;
+    background-color:#ff3300;
+    border-radius: 50%;
+   
+}
+#k{
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 40px;
+    color: white;
+}
+#l{
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 40px;
+    color: white;
+}
+#m{
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 40px;
+    color: white;
+}
+
+.x{
+    margin-top: -60px;
+    margin-left: 8%;
+    color: white;
+    width:140px;
+    height: 30px;
+    border-radius:80px 80px 80px 80px;
+    background-color: #18191a;
+    font-size: 18px;
+    align-items: center;
+    justify-items: center;
+}
+.h{
+    display:grid;
+    height:25px;
+    width: 180px;
+    background-color: #18191a;
+    font-size: 17px;
+    border-radius:80px 80px 80px 80px;
+    color: white;
+    justify-content: center;
+    padding-top:3px;
+    padding-bottom:0.001px;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+.line{
+    background-color: white;
+    width: 3px;
+    height: 120px;
+    margin-top: 32px;
+    margin-left: 38px;
+}
+.tech{
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+    margin-top: -120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.u{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.skill{
+    color: white;
+}
+.skill1{
+    color:orangered;
+    font-size: 40px;
+    text-align: center;
+}
+
+.skill-area{
+    padding:0  20%;
+}
+.skill2{
+    margin-bottom: 40px;
+}
+.skill-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+.skill-bar{
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    height: 40px;
+    z-index: -1;
+    border-radius: 100px;
+}
+.skill-fill{
+    background: orangered;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.skill-percent{
+    font-size: 30px;
+    color: black;
+}
+.html{
+    width:75%;
+}
+.css{
+    width:60%;
+}
+.cplus{
+    width:75%;
+}
+.java{
+    width:60%;
+}
+.cp{
+    width:80%;
+}
+.education3{
+    width:75%;
+}
+.education10{
+    margin-top: 200px;
+}
+.contact{
+    margin-left: 7%;
+    color: white;
+}
+.info{
+    font-size: 27px;
+}
+.email{
+    font-size: 23px;
+}
+.phone{
+    font-size: 23px;
+}
+.loc{
+    font-size: 23px;
+}
+.blank{
+    margin-top: 500px;
+}
